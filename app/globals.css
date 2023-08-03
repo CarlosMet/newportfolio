@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #0c1318;
+  color: white;
+}
+
+.pad{
+  @apply px-3 md:px-12 lg:px-16 xl:px-36 2xl:px-64;
+}
+.nav-container{
+  background-color: rgba(155, 155, 155, 0.2);
+}
+
+.blue-text{
+  @apply text-[#00E5BC];
+}
+
+.blue-bg{
+  @apply bg-[#00E5BC];
+}
